@@ -1,6 +1,7 @@
-for i in range (0,1000):
-    mylist = list(set(str("%03d" % i)))
-    if len(mylist) == 3 :
-        print ((mylist))
+for i in range(8) :
+    for j in range (9) :
+        for k in range (10) :
+                if i < j and j < k :
+                    print (i,j,k)
 
 
